@@ -1,0 +1,27 @@
+{
+  "name": "koa2-Study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon app.js"
+  },
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^4.0.3",
+    "mongoose": "^5.4.2",
+    "mysql2": "^1.6.4",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^1.18.9",
+    "redis": "^2.8.0",
+    "sequelize": "^4.42.0"
+  },
+  "author": "huangjian",
+  "license": "MIT"
+}

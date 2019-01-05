@@ -1,0 +1,7 @@
+{% extends "common/layout-home.html" %}
+{% block homeBanner %}
+<form method='post' action='/profile' enctype='multipart/form-data'>
+    选择图片：<input name="avatar" id='upfile' type='file'/>
+    <input type='submit' value='提交'/>
+</form>
+{% endblock %}
